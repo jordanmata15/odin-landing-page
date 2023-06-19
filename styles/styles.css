@@ -52,7 +52,8 @@ a {
 .hero-content,
 .card-section,
 .quote-section .quote,
-.quote-section .attribution{
+.quote-section .attribution,
+.call-to-action-section {
     margin-left: 75px;
     margin-right: 75px;
 }
@@ -96,6 +97,7 @@ button {
     border: 0;
     border-radius: 5px;
     background-color: #3882F6;
+    padding: 10px 30px;
 }
 
 .button-text {
@@ -105,7 +107,7 @@ button {
 
 .card-section {
     text-align: center;
-    margin: 50px;
+    padding: 75px;
 }
 
 .cards img {
@@ -119,10 +121,64 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-top: 20px;
 }
 
 .quote-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote {
+    flex: auto;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    flex: auto;
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-top: 5px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 40px;
+}
+
+.sign-up-text {
+    color: #F9FAF8;
+}
+
+.sign-up-text .major-text {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.sign-up-text .minor-text {
+    font-size: 18px;
+}
+
+.call-to-action-section button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    color: #F9FAF8;
 }
